@@ -103,9 +103,10 @@ export default {
   &__main-menu {
     display: flex;
     align-items: center;
-    padding: 14px 85px 3px;
+    padding: 14px 85px 8px;
   }
   &__logo {
+    height: 48px;
     margin-right: 24px;
   }
   &__button-menu {
@@ -160,10 +161,10 @@ export default {
       &:after {
         content: "";
         position: absolute;
-        top: -7px;
-        right: -7px;
-        width: 5px;
-        height: 5px;
+        top: -5px;
+        right: -6px;
+        width: 6px;
+        height: 6px;
         background-color: #e92f2f;
         border: 4px solid #fff;
         border-radius: 50%;
